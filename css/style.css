@@ -1,0 +1,165 @@
+html, body {
+    background: url("https://media.discordapp.net/attachments/671360530883018777/678069385348382755/bg.png") repeat !important;
+}
+  
+section {
+    text-align: center;
+}
+  
+/********** HEADER ***********/
+header {
+    text-align: center;
+}
+  
+header .titre {
+    display: inline-block;
+    border-bottom: 2.5px solid blue;
+    padding: 30px 0 30px 0;
+    width: 50%;
+    font-size: 50px;
+    margin: auto;
+}
+  
+/*--- MENU ---*/
+#menu {
+    display: inline-block;
+    border-bottom: 2.5px solid blue;
+    padding-bottom: 10px;  
+    width: 50%;
+    margin: auto;
+    list-style: none;
+}
+  
+#menu li {
+    display: inline;
+}
+
+#menu li a {
+    font-size: 20px;
+    padding: 50px;
+    font-family: 'Amatic SC', cursive;
+    line-height: 30px;
+    text-align: center;
+    text-decoration: none;
+}
+  
+a:hover {
+    color: darkorange;
+}
+
+/*--- Performances ---*/
+.perfImages {
+    border-radius: 15px;
+    width: 70%;
+    max-width: 70%;
+    height: 50%;
+    max-height: 50%;
+}
+  
+#performances li {
+    display: table-cell;
+    margin: 0 1% 0 1%;  
+    width: 30%;   
+}
+
+h1 {
+    text-align: center;
+    font-family: 'Amatic SC';font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+    font-family: 'Amatic SC';font-size: 30px;
+}
+  
+h3 {
+    text-align: center;
+    font-family: 'Amatic SC';font-size: 20px;
+}
+
+hr {
+    text-align: center;
+    width: 50%;
+    border-color: blue
+}
+
+/*--- Prices ---*/
+#prix {
+    text-align: center;
+    margin: auto;
+}
+  
+table {
+    border: 3px solid blue;
+    border-collapse: collapse;
+    width: 70%;
+}
+
+thead, tfoot {
+    background-color: #D0E3FA;
+    border: 2px solid blue;
+}
+
+tbody {
+    background-color: white;
+}
+  
+th {
+    border: 1px dotted blue;
+    padding: 5px;
+    width: 20%;
+}
+
+td {
+    font-family: sans-serif;
+    font-size: 80%;
+    border: 1px solid blue;
+    text-align: center;
+    padding: 5px;
+}
+  
+/*--- Contact Us ---*/
+#login {
+    width: 350px;
+    margin: auto;
+}
+
+input {
+    font-size: 15px;
+}
+
+textarea {
+    resize: none;
+    font-family: Arial;
+    color: black; 
+    font-size: 15px;
+}
+  
+#email {
+    height: 30px; 
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+  
+#message {
+    height: 100px; 
+    width: 350px;
+    font-size: 15px;
+    margin-bottom: 1rem;
+}
+  
+/* Bouton */
+#submit {
+    background-color: #333;
+    background: linear-gradient(to bottom, #333, #444);
+    border: 1px solid #222;
+    color: #fff;
+    cursor: pointer;
+    height: 35px;
+    width: 355px;
+}
+
+#submit:hover {
+    color: #2F9FE1;text-shadow: 0 0 1px rgba(255,255,255,.2);
+}
